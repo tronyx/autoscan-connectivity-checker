@@ -1,0 +1,28 @@
+# Autoscan Connectivity Checker
+[![CodeFactor](https://www.codefactor.io/repository/github/tronyx/autoscan-connectivity-checker/badge)](https://www.codefactor.io/repository/github/tronyx/autoscan-connectivity-checker) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tronyx/autoscan-connectivity-checker/blob/master/LICENSE.md)
+
+Script to check for connectivty issues with Autoscan.
+
+## Setting it up
+
+WIP
+
+## Scheduling
+
+Now that you have it configured so that everything is working properly, you can use a cronjob to schedule the script to run automatically.
+
+Here's an example of running the script every day at 4am:
+
+```bash
+# Run the Autoscan Connectivity Checker script
+0 4 * * * /home/tronyx/scripts/AutoscanConnectivityChecker.sh
+```
+
+### Unraid
+
+If you're running this on Unraid, like I am, you can use the User Scripts plugin to setup a cronjob for the script.
+
+
+## Questions
+
+If you have any questions, you can find me on the [Organizr Discord](https://organizr.app/discord).
