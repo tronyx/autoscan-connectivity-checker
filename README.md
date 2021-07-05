@@ -1,11 +1,25 @@
 # Autoscan Connectivity Checker
 [![CodeFactor](https://www.codefactor.io/repository/github/tronyx/autoscan-connectivity-checker/badge)](https://www.codefactor.io/repository/github/tronyx/autoscan-connectivity-checker) [![made-with-bash](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)](https://www.gnu.org/software/bash/) [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tronyx/autoscan-connectivity-checker/blob/master/LICENSE.md)
 
-Script to check for connectivty issues with Autoscan.
+## Description
 
-## Setting it up
+This script was written to catch the following error in the Autoscan log:
 
-WIP
+```
+Not all targets are available, retrying in 15 seconds...
+```
+
+Despite Plex being online and, seemingly, fully operational with users actively streaming.
+
+I have been seeing this a lot lately and it seems to correspond to the following error seen in the Plex Media Server log:
+
+```
+WARN - Need to be signed in and connected to the Internet to refresh a plex music library.
+```
+
+So it seems that any time I try to update music, maybe after a certain amount of time, this issue happens and restarting Plex fixes it. I just wrote this so I don't end up having Autoscan broken for several days, wondering why nothing is updating or getting added to my Plex Server.
+
+Hopefully Plex fixes this issue soon.
 
 ## Scheduling
 
