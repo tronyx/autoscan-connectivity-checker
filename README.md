@@ -21,6 +21,19 @@ So it seems that any time I try to update music, maybe after a certain amount of
 
 Hopefully Plex fixes this issue soon.
 
+## Setting It Up
+
+You'll just need to add your Discord webhook URL at the top of the script:
+
+```
+# Discord webhook URL
+webhookUrl=''
+```
+
+Message looks like this:
+
+
+
 ## Scheduling
 
 Now that you have it configured so that everything is working properly, you can use a cronjob to schedule the script to run automatically.
