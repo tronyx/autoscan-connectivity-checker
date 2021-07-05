@@ -32,7 +32,7 @@ webhookUrl=''
 
 Message looks like this:
 
-
+![Discord Message](/Images/discord.png)
 
 ## Scheduling
 
